@@ -1,0 +1,200 @@
+*{
+    list-style-type: none;
+
+}
+
+body {
+    
+    font-family: 'Mada', sans-serif;
+}
+
+.ul-menu {
+    background-color: rgb(26, 20, 20);
+    color: rgb(251, 251, 251);
+    overflow: hidden;
+    text-align: center;
+}
+
+.li-menu {
+float: right;
+
+}
+
+.a-menu {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    padding: 17px;
+    
+}
+
+li-menu a:hover {
+    background-color: rgb(84, 84, 84);
+}
+
+.title-menu {
+    font-size: 40px;
+    display: inline;
+}
+.column {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+.social {
+    width: 30px;
+    padding: 5px;
+}
+
+.left {
+     width: 20%;
+   float: left; 
+}
+.right {
+    width:  80%;
+    float: left;
+}
+.row {
+    padding: 5px
+}
+
+.row:after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.main-bar {
+    background-color: gray;
+    display: block;
+    height: 25px;
+}
+
+.main-bar span {
+    background-color: rgb(0, 0, 0);
+    height: 25px;
+    display: block;
+    color: white;
+
+}
+
+.javascript {
+    width: 90%;
+    animation: javascript 2s;
+}
+
+.HTML {
+    width: 90%;
+    animation: HTML 2s;
+}
+
+.CSS {
+    width: 90%;
+    animation: CSS 2s;
+
+}
+
+.React {
+    width: 70%;
+    animation: React 2s;
+
+}
+
+.SQL {
+    width: 60%;
+    animation: SQL 2s;
+
+}
+
+.GitHub {
+    width: 50%;
+    animation: GitHub 2s;
+
+}
+
+@keyframes javascript {
+    0% {
+        width: 0%;
+
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes HTML {
+    0% {
+        width: 0%;
+
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes CSS {
+    0% {
+        width: 0%;
+
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes React {
+    0% {
+        width: 0%;
+
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+@keyframes SQL {
+    0% {
+        width: 0%;
+
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes GitHub {
+    0% {
+        width: 0%;
+
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+.footer {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width:800px){
+    .column {
+        width: 100%;
+    }
+    
+}
